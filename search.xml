@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>hexo 命令</title>
+      <link href="/2023/08/23/hexo%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/08/23/hexo%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="hexo-常见命令">hexo 常见命令</h2><h3 id="hexo-s"><code>hexo s</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>启动服务器，用于预览主题</p><ul><li><code>hexo s</code> 是 <code>hexo server</code> 的缩写，命令效果一致；</li><li>预览的同时可以修改文章内容或者主题的代码，保存后刷新即可</li><li>对 Hexo 根目录 <code>_config.yml</code> 的修改，需要重启本地服务器后才能预览效果。</li></ul><h4 id="hexo-clean"><code>hexo clean</code></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><p>清楚缓存文件<code>db.json</code>和已经生成的静态文件public</p><ul><li>网站显示异常时可以试试该命令</li></ul><h3 id="hexo-g"><code>hexo g</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>生成网站的静态文件到默认的设置文件<code>public</code>中</p><ul><li>hexo g 是hexo generate的缩写</li><li>便于查看网站生成的静态文件或者手动部署网站</li><li>如果是自动部署，不需要先执行该命令</li></ul><h3 id="hexo-d"><code>hexo d</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>自动生成网站静态文件，并部署到设定的仓库中</p><ul><li>hexo d 是 hexo deploy 的缩写，效果一致</li></ul><h3 id="hexo-n-page"><code>hexo n page</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n page about</span><br></pre></td></tr></table></figure><p>意思为新建一个about的页面，默认的链接地址为<code>主页地址/about/</code></p><ul><li>标题可以用中文，但是习惯使用英文</li><li>页面标题和文章一样可以随意修改</li><li>页面不会出现在首页文章列表和归档中，也不支持分类和标签</li></ul><h3 id="hexo-n"><code>hexo n</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n &quot;笔记01&quot;</span><br></pre></td></tr></table></figure><p>新建一篇标题为 <code>笔记01</code> 的文章</p><ul><li>新建内容时标题可以写的简单些</li><li>hexo n 是 hexo new 的缩写。</li></ul><p>常用的文章属性有如下：</p><table><thead><tr><th>Setting</th><th>Description</th><th>Default</th></tr></thead><tbody><tr><td>layout</td><td>Layout</td><td>post 或者 page</td></tr><tr><td>title</td><td>文章标题</td><td></td></tr><tr><td>date</td><td>创建日期</td><td>文件创建日期</td></tr><tr><td>updated</td><td>修改日期</td><td>文件修改日期</td></tr><tr><td>comments</td><td>是否开启评论</td><td>true</td></tr><tr><td>tags</td><td>标签</td><td></td></tr><tr><td>categories</td><td>分类</td><td></td></tr><tr><td>permalink</td><td>url中的名字</td><td>文件名</td></tr></tbody></table><h3 id="more">more</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">用于首页展示文章时的缩略显示</span><br><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo 一些常见的命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vue(2，3) 父组件传子组件 ,子组件传父组件 ,兄弟组件传兄弟组件</title>
       <link href="/2023/07/13/vue%E4%BC%A0%E5%80%BC/"/>
       <url>/2023/07/13/vue%E4%BC%A0%E5%80%BC/</url>
